@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start-dev": "nodemon app",
-    "start-ui": "browser-sync start --proxy 'localhost:5050' --files 'index.html' 'chat.html' 'public'",
+    "start-ui": "browser-sync start --proxy 'localhost:5050' --files 'index.php' 'chat.html' 'admin'",
     "start": "node app"
   },
   "keywords": [],
@@ -13,6 +13,16 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "socket.io": "^3.1.0"
-  }
+    "mysql": "^2.18.1",
+    "socket.io": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canyucelbal/Bal_C_Nandakumar_A_ChatApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/canyucelbal/Bal_C_Nandakumar_A_ChatApp/issues"
+  },
+  "homepage": "https://github.com/canyucelbal/Bal_C_Nandakumar_A_ChatApp#readme",
+  "devDependencies": {}
 }
