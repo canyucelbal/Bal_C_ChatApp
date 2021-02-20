@@ -1,0 +1,62 @@
+body {
+  background-image: url("../assets/chat_app_background_1920_1080.svg");
+  background-repeat: no-repeat;
+  background-color: #6893BD;
+  background-size: 1920px 1080px;
+}
+body .logo_small {
+  display: flex;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+}
+body .message-wrapper textarea {
+  position: absolute;
+  bottom: 10px;
+  width: 1300px;
+  border: none;
+  border-radius: 30px;
+  height: 30px;
+  display: flex;
+}
+body .message-wrapper input[type=submit] {
+  position: absolute;
+  bottom: 10px;
+  left: 1350px;
+  border: none;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  background: url("../assets/send_arrows.svg");
+  background-repeat: no-repeat;
+  border: 0;
+}
+body a img {
+  position: absolute;
+  bottom: 10px;
+  left: 1400px;
+  border: none;
+  height: 30px;
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+.topbar {
+  display: flex;
+  background-color: white;
+  width: 1520px;
+  height: 10px;
+}
+
+.new-message {
+  background-color: #393C3F;
+  display: flex;
+  position: absolute;
+  left: 50px;
+  width: 300px;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,23 @@
+body {
+    background-color: #B9D6FF;
+display: flex;text-align: center;
+flex-direction: column;
+font-family: 'Quicksand',Arial,Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.button_join {display: flex;
+    justify-content: center;text-align: center;
+    margin: 0 auto;
+background-color: #33485C;
+color: white;
+width: 130px;
+border-radius: 20px;
+height: 25px;
+}
+
